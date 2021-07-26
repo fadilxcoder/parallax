@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 $(document).ready(function() {
     $(window).scroll(function(event) {
         var visible_postion         = $(this).scrollTop();              // return the vertical scrollbar position. When the scrollbar is on the top, the position is 0.

@@ -1,0 +1,41 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "- Simple Parallax Web Interface \r - UI/UX \r - 4 Simple Parallax animation combined together.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadilxcoder/parallax.git"
+  },
+  "author": "fadilxcoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadilxcoder/parallax/issues"
+  },
+  "homepage": "https://github.com/fadilxcoder/parallax#readme",
+  "devDependencies": {
+    "axios": "^0.21",
+    "laravel-mix": "^6.0.6",
+    "less-loader": "^10.0.1",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^6.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
