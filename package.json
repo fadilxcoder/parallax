@@ -4,7 +4,7 @@
   "description": "- Simple Parallax Web Interface \r - UI/UX \r - 4 Simple Parallax animation combined together.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test specified\"",
     "dev": "npm run development",
     "development": "mix",
     "watch": "mix watch",
