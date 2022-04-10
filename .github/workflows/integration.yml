@@ -1,0 +1,32 @@
+name: Integration CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: GA - Initialize the proccess
+      uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: "17"
+        cache: 'npm'
+    - run: npm i
+    - run: npm run dev
+
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: GA - Initialize the proccess
+      uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: "17"
+        cache: 'npm'
+    - run: npm i
+    - run: npm run test
